@@ -1,0 +1,29 @@
+{
+  "name": "pruchatbot",
+  "version": "1.0.0",
+  "description": "a chatbot for prudential demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PengWu1st/Chatbot.git"
+  },
+  "author": "warren.p.wu@accenture.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PengWu1st/Chatbot/issues"
+  },
+  "homepage": "https://github.com/PengWu1st/Chatbot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "watson-developer-cloud": "^2.32.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
