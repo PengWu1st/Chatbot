@@ -5,6 +5,7 @@ import * as bodyParser from 'body-parser';
 import * as http from 'http';
 import * as os from 'os';
 import cookieParser from 'cookie-parser';
+import Logger, {configure} from 'bunyan-node-logger';
 dotenv.config();
 configure({
     appId: process.env.APP_ID,
