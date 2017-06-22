@@ -17,7 +17,7 @@ const app = new express();
 export default class ExpressServer {
     constructor() {
         this._1 = new Logger(this.constructor.name);
-        const root = path.normalize(__dirname + '/..');
+        const root = path.normalize(__dirname + '/../..');
         app.set('appPath', root + 'client');
         app.use(bodyParser.json());
         app.use(bodyParser.urlencoded({extended: true }));

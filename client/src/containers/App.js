@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header>National Parks</header>
+        <header>Prudential Agency</header>
         <section ref="main">
           {/*{ this.state.conversationHistory.map((h,i) => this.renderExchange(h, i)) }*/
           this.state.conversationHistory.map((h,i) => this.renderText(h, i))

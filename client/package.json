@@ -1,9 +1,14 @@
 {
+  "name": "pru-chatbot-ui",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3004",
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
   "dependencies": {
-    "build": "^0.1.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "^1.0.7"
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
